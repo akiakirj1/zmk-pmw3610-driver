@@ -651,7 +651,7 @@ static int pmw3610_report_data(const struct device *dev) {
     }else if (movement_size > 2) {
         speed_multiplier = 0.5;
     }else if (movement_size > 1) {
-        speed_multiplier = 0.3;
+        speed_multiplier = 0.4;
     }
 
     raw_x = raw_x * speed_multiplier;
